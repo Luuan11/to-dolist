@@ -1,6 +1,7 @@
 ## To-do List
 📜 To-do List Feito em HTML, CSS e JavaScript.
 
+![image](https://user-images.githubusercontent.com/79935555/184553201-12c393fd-b266-4494-abb3-6342a718d3d3.png)
 
 
 ### 🔥 Sobre
