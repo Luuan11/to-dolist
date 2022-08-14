@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    /* Resetando valores */
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(140deg, #8052ec, #b59bf0);
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.newitem{
+    position: relative;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.newitem-input{
+    position: relative;
+    width: 70%;
+    height: 45px;
+    padding: 12px;
+    font-size: 14;
+    font-weight: 500;
+    border: 1px solid #3b3b3b36;
+    border-radius: 8px;
+    color: #232424;
+}
+
+.newitem-input:focus{
+    outline: none;
+    border-color: #9b75f3;
+}
+
+.newitem-button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #9b75f3;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.newitem-button:hover{
+    transform: scale(1.2);
+}
+
+.item{
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+}
+
+/* Depois de acionar o JS */
+.itens{
+    background-color: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #cbcfd1;
+    cursor: pointer;
+}
+
+.item span{
+    font-size: 15px;
+}
+
+.item button{
+    background-color: #9b75f3;
+    height: 100%;
+    width: 40px;
+    border-radius:8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.item button:hover{
+    transform: scale(1.2);
+}
+
+.feito{
+    text-decoration: line-through;
+    color: #808080;
+}
